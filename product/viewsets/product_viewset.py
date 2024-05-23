@@ -7,8 +7,6 @@ from product.serializers.product_serializer import ProductSerializer
 
 
 class ProductViewSet(ModelViewSet):
-    authentication_classes = [SessionAuthentication, BasicAuthentication, TokenAuthentication]
-    permission_classes = [IsAuthenticated]
     serializer_class = ProductSerializer
 
     def get_queryset(self):
