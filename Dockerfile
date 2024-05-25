@@ -40,7 +40,7 @@ RUN apt-get update \
         build-essential
 
 # install poetry - respects $POETRY_VERSION & $POETRY_HOME
-RUN curl -sSL https://install.python-poetry.org | python -
+RUN curl -sSL https://install.python-poetry.org | python - --version 1.0.3
 
 RUN apt-get update \
     && apt-get -y install libpq-dev gcc \
