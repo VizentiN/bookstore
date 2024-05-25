@@ -3,7 +3,7 @@ name = "bookstore"
 version = "0.1.0"
 description = "Book store API"
 authors = ["Lucas Vizentin <Lucas.Vizentin@hotmail.com>"]
-readme = "README.md"
+description-file = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.7"
