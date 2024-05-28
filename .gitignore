@@ -132,3 +132,4 @@ __pycache__
 *.pyc
 db.sqlite3
 settings-py-backup.txt
+pythonanywhere_token.txt
